@@ -1,0 +1,25 @@
+{
+  "name": "cypress-with-percy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennymeade/cypress-with-percy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennymeade/cypress-with-percy/issues"
+  },
+  "homepage": "https://github.com/bennymeade/cypress-with-percy#readme",
+  "dependencies": {
+    "@percy/cli": "^1.0.0-beta.58",
+    "@percy/cypress": "^3.1.0",
+    "cypress": "^7.7.0"
+  }
+}
