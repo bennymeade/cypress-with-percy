@@ -6,6 +6,6 @@ $ export PERCY_LOGLEVEL=debug
 
 $ export PERCY_TOKEN=abc
 
-$ npm intall
+$ npm install
 
 $ npx percy exec -- cypress run
