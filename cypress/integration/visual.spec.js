@@ -4,7 +4,7 @@ describe('visual', () => {
     urls.forEach(url => {
     it(`connect to percy - ${url}`, () => {
         cy.visit(url)
-        cy.percySnapshot(url, { enableJavaScript: true });
+        cy.percySnapshot(url);
     })
     })
 })
